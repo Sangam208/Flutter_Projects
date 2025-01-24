@@ -95,7 +95,7 @@ class _ProductListState extends State<ProductList> {
           Expanded(
             child: LayoutBuilder(
               builder: (context, constraints) {
-                if (constraints.maxWidth > 1240) {
+                if (constraints.maxWidth > 1239) {
                   return GridView.builder(
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
